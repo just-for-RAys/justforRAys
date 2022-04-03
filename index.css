@@ -1,0 +1,119 @@
+body{
+    
+}
+
+div{
+
+    display: inline-block;
+    float: right;
+    margin: 10 20 20 0;
+}
+.p{
+    float: right;
+    margin: 10 20 20 ;
+    overflow: hidden;
+}    
+
+.bc h1{
+    float: left;
+   
+    padding: 0 350 0 0 ;
+    overflow: hidden;
+}
+.bc{
+    
+    background-color: 39569c;
+    color: white;
+    overflow: hidden;
+
+}
+.bc input[type="submit"]{
+    background-color:39569c;
+    color: white;
+    margin: 0 10 0 24;
+    size:24 px;
+    width: 45px;
+}
+.s{
+   
+    float: left;
+}
+.s p{
+    font-size: 24px;
+    color: darkblue;
+    margin: 20px;
+}
+.s img{
+    margin: 10px 0 ;
+}
+.aside h1 {
+    color:darkblue;
+    font-size: 31px;
+} 
+.form{
+    font-size:16px;
+}
+.form input[type="submit"]{
+    background-color: chartreuse;
+}
+@media screen and (max-width:800px){
+    
+    
+div{
+
+    
+    text-align: justify;
+   
+}
+.p{
+    text-align: justify;
+ 
+    overflow: hidden;
+}    
+
+.bc h1{
+   text-align: center;
+   
+   
+    overflow: hidden;
+}
+.bc{
+    
+    background-color: 39569c;
+    color: white;
+    overflow: hidden;
+
+}
+    .bc input[type="password"]{
+        float: right;
+        margin: 60px;
+    }
+.bc input[type="submit"]{
+    background-color:39569c;
+    color: white;
+   
+    size:24 px;
+    width: 45px;
+}
+.s{
+   
+    float: left;
+}
+.s p{
+    font-size: 24px;
+    color: darkblue;
+    margin: 20px;
+}
+.s img{
+   height: 400px;
+    width: 300px;
+}
+.aside h1 {
+    
+    color:darkblue;
+    font-size: 31px;
+} 
+.form{
+    font-size: 19px;
+}
+}
